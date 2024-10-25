@@ -42,16 +42,20 @@ const Footer = () => {
               <h3>Follow Us</h3>
               <div className="footer-social--icons">
                 <div>
-                  <FaDiscord className="icons" />
-                </div>
-                <div>
-                  <FaInstagram className="icons" />
+                  <a href="https://discord.gg/eU7U2hus" target="_blank">
+                    <FaDiscord className="icons" />
+                  </a>
                 </div>
                 <div>
                   <a
-                    // href=""
-                    // target="_blank"
+                    href="https://www.instagram.com/anjul_sharma_/"
+                    target="_blank"
                   >
+                    <FaInstagram className="icons" />
+                  </a>
+                </div>
+                <div>
+                  <a href="www.youtube.com/@anjulsharma4629" target="_blank">
                     <FaYoutube className="icons" />
                   </a>
                 </div>
@@ -59,7 +63,9 @@ const Footer = () => {
             </div>
             <div className="footer-contact">
               <h3>Call Us</h3>
-              <h3>+91 12345678978</h3>
+              <a href="tel:7610278206" className="mobile-num">
+                +91 7610278206
+              </a>
             </div>
           </div>
 
@@ -129,7 +135,12 @@ const Wrapper = styled.section`
       }
     }
   }
-
+  .mobile-num {
+    font-family: "Work Sans", sans-serif;
+    font-size: 1.8rem;
+    font-weight: 400;
+    color: white;
+  }
   .footer-bottom--section {
     padding-top: 9rem;
 
