@@ -1,4 +1,4 @@
-import { useProductContext } from './components/context/productcontext';
+import { useProductContext } from './context/productcontext';
 import HeroSection from './components/HeroSection'
 
 const About = () => {
