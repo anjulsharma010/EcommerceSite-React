@@ -3,8 +3,8 @@ import styled from "styled-components";
 import { Button } from "../styles/Button";
 import { NavLink } from "react-router-dom";
 
-const HeroSection = ({myData}) => {
-const {name} = myData;
+const HeroSection = ({ myData }) => {
+  const { name } = myData;
   return (
     <Wrapper>
       <div className="container">
@@ -13,9 +13,9 @@ const {name} = myData;
             <p className="intro-data">Welcome to </p>
             <h1>{name}</h1>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias
-              atque temporibus veniam doloribus libero ad error omnis voluptates
-              animi! Suscipit sapiente.
+              Discover unique products at unbeatable prices! Shop our curated
+              collection for the latest trends and essentials delivered right to
+              your door.
             </p>
             <NavLink>
               <Button>show now</Button>
